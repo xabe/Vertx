@@ -7,5 +7,6 @@ En este ejemplo vamos a usar la libreria vertx en varios casos:
 - [x] Event Bus
 - [x] Service Proxy
 - [x] Datasource Postgres
-- [ ] Datasource Mongo
+- [x] Datasource Mongo
+- [ ] Datasource Hibertante reactive
 - [ ] CDI

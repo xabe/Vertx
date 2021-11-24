@@ -1,6 +1,11 @@
 version: '3.7' # specify docker-compose version
 
 services:
+  mongo:
+    image: mongo:4.0
+    restart: always
+    ports:
+    - "27017:27017"
   postgres:
     image: postgres
     ports:

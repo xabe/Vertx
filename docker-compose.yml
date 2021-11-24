@@ -11,5 +11,5 @@ services:
       POSTGRES_DB: blogdb
       POSTGRES_USER: user
     volumes:
-    - .postgres/data:/var/lib/postgresql
-    - .postgres/pg-initdb.d:/docker-entrypoint-initdb.d
+    - ./postgres/data:/var/lib/postgresql
+    - ./postgres/pg-initdb.d:/docker-entrypoint-initdb.d

@@ -6,6 +6,6 @@ En este ejemplo vamos a usar la libreria vertx en varios casos:
 - [x] Rest Verticle
 - [x] Event Bus
 - [x] Service Proxy
-- [ ] Datasource Postgres
+- [x] Datasource Postgres
 - [ ] Datasource Mongo
 - [ ] CDI

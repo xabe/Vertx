@@ -16,6 +16,8 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <vertx.version>4.2.1</vertx.version>
+    <mutiny-vertx.version>2.14.2</mutiny-vertx.version>
+    <hibernate-reactive-core.version>1.0.0.Final</hibernate-reactive-core.version>
     <junit-jupiter.version>5.8.1</junit-jupiter.version>
     <jackson.version>2.11.3</jackson.version>
 
@@ -91,6 +93,30 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-mongo-client</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>io.smallrye.reactive</groupId>
+      <artifactId>smallrye-mutiny-vertx-core</artifactId>
+      <version>${mutiny-vertx.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.smallrye.reactive</groupId>
+      <artifactId>smallrye-mutiny-vertx-web</artifactId>
+      <version>${mutiny-vertx.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.smallrye.reactive</groupId>
+      <artifactId>smallrye-mutiny-vertx-pg-client</artifactId>
+      <version>${mutiny-vertx.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.hibernate.reactive</groupId>
+      <artifactId>hibernate-reactive-core</artifactId>
+      <version>${hibernate-reactive-core.version}</version>
     </dependency>
 
     <dependency>
